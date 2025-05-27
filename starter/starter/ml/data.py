@@ -50,19 +50,24 @@ def process_data(
     else:
         y = np.array([])
 
-    X_categorical = X[categorical_features].values
-    X_continuous = X.drop(*[categorical_features], axis=1)
+    if categorical_features:
+        X_categorical = X[categorical_features].values
+        X_continuous = X.drop(columns=categorical_features)
+    else:
+        X_categorical = np.empty((len(X), 0))
+        X_continuous = X
 
     if training is True:
         encoder = OneHotEncoder(sparse=False, handle_unknown="ignore")
         lb = LabelBinarizer()
-        X_categorical = encoder.fit_transform(X_categorical)
-        y = lb.fit_transform(y.values).ravel()
+        if X_categorical.shape[1] > 0:
+            X_categorical = encoder.fit_transform(X_categorical)
+        y = lb.fit_transform(y.values).ravel() if y.size > 0 else y
     else:
-        X_categorical = encoder.transform(X_categorical)
+        if X_categorical.shape[1] > 0:
+            X_categorical = encoder.transform(X_categorical)
         try:
             y = lb.transform(y.values).ravel()
-        # Catch the case where y is None because we're doing inference.
         except AttributeError:
             pass
 

@@ -1,0 +1,432 @@
+
+Performance on workclass slices:
+----------------------------------------
+State-gov:
+  Precision: 0.951
+  Recall: 0.932
+  F1: 0.941
+Self-emp-not-inc:
+  Precision: 0.953
+  Recall: 0.890
+  F1: 0.920
+Private:
+  Precision: 0.953
+  Recall: 0.927
+  F1: 0.940
+Federal-gov:
+  Precision: 0.962
+  Recall: 0.960
+  F1: 0.961
+Local-gov:
+  Precision: 0.960
+  Recall: 0.943
+  F1: 0.952
+?:
+  Precision: 0.949
+  Recall: 0.869
+  F1: 0.907
+Self-emp-inc:
+  Precision: 0.960
+  Recall: 0.953
+  F1: 0.956
+Without-pay:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Never-worked:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+
+Performance on education slices:
+----------------------------------------
+Bachelors:
+  Precision: 0.951
+  Recall: 0.945
+  F1: 0.948
+HS-grad:
+  Precision: 0.950
+  Recall: 0.884
+  F1: 0.916
+11th:
+  Precision: 1.000
+  Recall: 0.867
+  F1: 0.929
+Masters:
+  Precision: 0.962
+  Recall: 0.969
+  F1: 0.965
+9th:
+  Precision: 1.000
+  Recall: 0.926
+  F1: 0.962
+Some-college:
+  Precision: 0.950
+  Recall: 0.904
+  F1: 0.926
+Assoc-acdm:
+  Precision: 0.953
+  Recall: 0.928
+  F1: 0.941
+Assoc-voc:
+  Precision: 0.948
+  Recall: 0.917
+  F1: 0.932
+7th-8th:
+  Precision: 0.971
+  Recall: 0.850
+  F1: 0.907
+Doctorate:
+  Precision: 0.974
+  Recall: 0.980
+  F1: 0.977
+Prof-school:
+  Precision: 0.959
+  Recall: 0.993
+  F1: 0.976
+5th-6th:
+  Precision: 1.000
+  Recall: 0.875
+  F1: 0.933
+10th:
+  Precision: 0.945
+  Recall: 0.839
+  F1: 0.889
+1st-4th:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Preschool:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+12th:
+  Precision: 1.000
+  Recall: 0.909
+  F1: 0.952
+
+Performance on marital-status slices:
+----------------------------------------
+Never-married:
+  Precision: 0.980
+  Recall: 0.880
+  F1: 0.927
+Married-civ-spouse:
+  Precision: 0.950
+  Recall: 0.939
+  F1: 0.945
+Divorced:
+  Precision: 0.971
+  Recall: 0.860
+  F1: 0.912
+Married-spouse-absent:
+  Precision: 1.000
+  Recall: 0.824
+  F1: 0.903
+Separated:
+  Precision: 1.000
+  Recall: 0.833
+  F1: 0.909
+Married-AF-spouse:
+  Precision: 1.000
+  Recall: 0.700
+  F1: 0.824
+Widowed:
+  Precision: 1.000
+  Recall: 0.812
+  F1: 0.896
+
+Performance on occupation slices:
+----------------------------------------
+Adm-clerical:
+  Precision: 0.946
+  Recall: 0.899
+  F1: 0.922
+Exec-managerial:
+  Precision: 0.960
+  Recall: 0.950
+  F1: 0.955
+Handlers-cleaners:
+  Precision: 0.963
+  Recall: 0.907
+  F1: 0.934
+Prof-specialty:
+  Precision: 0.956
+  Recall: 0.951
+  F1: 0.954
+Other-service:
+  Precision: 1.000
+  Recall: 0.847
+  F1: 0.917
+Sales:
+  Precision: 0.950
+  Recall: 0.935
+  F1: 0.943
+Craft-repair:
+  Precision: 0.948
+  Recall: 0.900
+  F1: 0.923
+Transport-moving:
+  Precision: 0.941
+  Recall: 0.894
+  F1: 0.917
+Farming-fishing:
+  Precision: 0.949
+  Recall: 0.809
+  F1: 0.873
+Machine-op-inspct:
+  Precision: 0.945
+  Recall: 0.888
+  F1: 0.915
+Tech-support:
+  Precision: 0.950
+  Recall: 0.943
+  F1: 0.947
+?:
+  Precision: 0.949
+  Recall: 0.869
+  F1: 0.907
+Protective-serv:
+  Precision: 0.956
+  Recall: 0.919
+  F1: 0.937
+Armed-Forces:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Priv-house-serv:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+
+Performance on relationship slices:
+----------------------------------------
+Not-in-family:
+  Precision: 0.974
+  Recall: 0.871
+  F1: 0.920
+Husband:
+  Precision: 0.951
+  Recall: 0.939
+  F1: 0.945
+Wife:
+  Precision: 0.947
+  Recall: 0.938
+  F1: 0.943
+Own-child:
+  Precision: 1.000
+  Recall: 0.791
+  F1: 0.883
+Unmarried:
+  Precision: 0.995
+  Recall: 0.849
+  F1: 0.916
+Other-relative:
+  Precision: 1.000
+  Recall: 0.865
+  F1: 0.928
+
+Performance on race slices:
+----------------------------------------
+White:
+  Precision: 0.954
+  Recall: 0.927
+  F1: 0.940
+Black:
+  Precision: 0.960
+  Recall: 0.935
+  F1: 0.948
+Asian-Pac-Islander:
+  Precision: 0.956
+  Recall: 0.935
+  F1: 0.945
+Amer-Indian-Eskimo:
+  Precision: 0.912
+  Recall: 0.861
+  F1: 0.886
+Other:
+  Precision: 1.000
+  Recall: 0.920
+  F1: 0.958
+
+Performance on sex slices:
+----------------------------------------
+Male:
+  Precision: 0.953
+  Recall: 0.932
+  F1: 0.942
+Female:
+  Precision: 0.959
+  Recall: 0.904
+  F1: 0.931
+
+Performance on native-country slices:
+----------------------------------------
+United-States:
+  Precision: 0.954
+  Recall: 0.926
+  F1: 0.940
+Cuba:
+  Precision: 0.923
+  Recall: 0.960
+  F1: 0.941
+Jamaica:
+  Precision: 0.909
+  Recall: 1.000
+  F1: 0.952
+India:
+  Precision: 0.975
+  Recall: 0.975
+  F1: 0.975
+?:
+  Precision: 0.951
+  Recall: 0.932
+  F1: 0.941
+Mexico:
+  Precision: 1.000
+  Recall: 0.939
+  F1: 0.969
+South:
+  Precision: 0.882
+  Recall: 0.938
+  F1: 0.909
+Puerto-Rico:
+  Precision: 0.917
+  Recall: 0.917
+  F1: 0.917
+Honduras:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+England:
+  Precision: 0.966
+  Recall: 0.933
+  F1: 0.949
+Canada:
+  Precision: 0.925
+  Recall: 0.949
+  F1: 0.937
+Germany:
+  Precision: 0.955
+  Recall: 0.955
+  F1: 0.955
+Iran:
+  Precision: 0.875
+  Recall: 0.778
+  F1: 0.824
+Philippines:
+  Precision: 1.000
+  Recall: 0.918
+  F1: 0.957
+Italy:
+  Precision: 0.960
+  Recall: 0.960
+  F1: 0.960
+Poland:
+  Precision: 0.923
+  Recall: 1.000
+  F1: 0.960
+Columbia:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Cambodia:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Thailand:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Ecuador:
+  Precision: 1.000
+  Recall: 0.750
+  F1: 0.857
+Laos:
+  Precision: 1.000
+  Recall: 0.500
+  F1: 0.667
+Taiwan:
+  Precision: 0.950
+  Recall: 0.950
+  F1: 0.950
+Haiti:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Portugal:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Dominican-Republic:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+El-Salvador:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+France:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Guatemala:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+China:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Japan:
+  Precision: 0.958
+  Recall: 0.958
+  F1: 0.958
+Yugoslavia:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Peru:
+  Precision: 0.500
+  Recall: 0.500
+  F1: 0.500
+Outlying-US(Guam-USVI-etc):
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Scotland:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Trinadad&Tobago:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Greece:
+  Precision: 0.857
+  Recall: 0.750
+  F1: 0.800
+Nicaragua:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Vietnam:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Hong:
+  Precision: 0.857
+  Recall: 1.000
+  F1: 0.923
+Ireland:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
+Hungary:
+  Precision: 1.000
+  Recall: 0.667
+  F1: 0.800
+Holand-Netherlands:
+  Precision: 1.000
+  Recall: 1.000
+  F1: 1.000
