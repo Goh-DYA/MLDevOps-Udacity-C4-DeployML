@@ -5,6 +5,7 @@ Working in a command line environment is recommended for ease of use with git an
     * Use the supplied requirements file to create a new environment, or
     * conda create -n [envname] "python=3.8" scikit-learn pandas numpy pytest jupyter jupyterlab fastapi uvicorn -c conda-forge
     * Install git either through conda (“conda install git”) or through your CLI, e.g. sudo apt-get git.
+* *Note: heroku no longer supports python 3.8, instead 3.11 will be used*
 
 ## Repositories
 * Create a directory for the project and initialize git.

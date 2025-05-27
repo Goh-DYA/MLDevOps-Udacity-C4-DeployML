@@ -16,12 +16,12 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Miniconda with Python 3.8
+    - name: Set up Miniconda with Python 3.11
       uses: conda-incubator/setup-miniconda@v3
       with:
         activate-environment: udacity-deployml-env
         environment-file: environment.yml
-        python-version: 3.8
+        python-version: 3.11
         auto-activate-base: false
         channels: conda-forge
 
